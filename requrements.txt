@@ -1,0 +1,13 @@
+# EYWA Client
+eywa-client>=0.5.6
+
+# Web Scraping
+selenium>=4.44.0
+webdriver-manager>=4.1.1
+
+# HTTP Requests
+requests>=2.34.2
+aiohttp>=3.13.5
+
+# Utilities
+python-dateutil>=2.9.0.post0
