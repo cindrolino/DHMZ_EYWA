@@ -5,19 +5,19 @@ Automatizacija čitanja podataka iz tablice sa DHMZ web stranice
 ## Getting Started
 
 
-Connect to your EYWA instance:
+Povežite se na svoju EYWA instancu:
 ```bash
 eywa connect <YOUR_EYWA_URL>
 ```
 
 
-Install project requirements:
+Instalirajte potrebne pakete:
 ```bash
 pip install -r requirements.txt
 ```
 
 
-Run the DHMZ sync robot locally:
+Pokrenite DHMZ sync robota lokalno:
 ```bash
 eywa run -c 'python dhmz_eywa_cache_opisano.py'
 ```
