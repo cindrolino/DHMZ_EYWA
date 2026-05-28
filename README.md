@@ -2,7 +2,7 @@
 
 Automatizacija čitanja podataka iz tablice sa DHMZ web stranice
 
-## Getting Started
+## Pokretanje
 
 
 Povežite se na svoju EYWA instancu:
