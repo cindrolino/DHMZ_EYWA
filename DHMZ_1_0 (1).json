@@ -1,0 +1,205 @@
+{
+  "~:euuid": "~u5ac8b00a-5754-4b4e-905b-11025519f03d",
+  "~:name": "1.0",
+  "~:dataset": {
+    "~:euuid": "~u055e9df7-cdbe-412b-808d-3e62ec008e65",
+    "~:name": "DHMZ"
+  },
+  "~:model": {
+    "~#neyho.eywa.dataset.core.ERDModel": {
+      "~:entities": {
+        "~u287420f2-7e6c-4f8d-a236-da2d647ce100": {
+          "~#neyho.eywa.dataset.core.ERDEntity": {
+            "~:name": "DhmzStanica",
+            "~:width": 196.15625,
+            "~:original": null,
+            "~:type": "WEAK",
+            "~:active": null,
+            "~:euuid": "~u287420f2-7e6c-4f8d-a236-da2d647ce100",
+            "~:clone": null,
+            "~:claimed-by": null,
+            "~:position": {
+              "~:x": -162,
+              "~:y": -13.5
+            },
+            "~:configuration": null,
+            "~:attributes": [
+              {
+                "~#neyho.eywa.dataset.core.ERDEntityAttribute": {
+                  "~:euuid": "~u0a31ecb3-c019-44dd-a257-ae69b9ef24ab",
+                  "~:seq": 0,
+                  "~:name": "lokacija",
+                  "~:constraint": "mandatory",
+                  "~:type": "string",
+                  "~:configuration": null,
+                  "~:active": true
+                }
+              },
+              {
+                "~#neyho.eywa.dataset.core.ERDEntityAttribute": {
+                  "~:euuid": "~u0915f398-063b-4c7e-b366-5f2931c70e77",
+                  "~:seq": 1,
+                  "~:name": "automatska_mjerenja",
+                  "~:constraint": "optional",
+                  "~:type": "boolean",
+                  "~:configuration": null,
+                  "~:active": true
+                }
+              },
+              {
+                "~#neyho.eywa.dataset.core.ERDEntityAttribute": {
+                  "~:euuid": "~u17aac4d2-9b48-4cd8-88cb-cfacdec4b93c",
+                  "~:seq": 2,
+                  "~:name": "zadnje_pogledano",
+                  "~:constraint": "optional",
+                  "~:type": "timestamp",
+                  "~:configuration": null,
+                  "~:active": true
+                }
+              }
+            ],
+            "~:height": 122
+          }
+        },
+        "~u53ece2f6-4cd0-4df5-afdb-08ead4eda917": {
+          "~#neyho.eywa.dataset.core.ERDEntity": {
+            "~:name": "DhmzMjerenja",
+            "~:width": 179.53125,
+            "~:original": null,
+            "~:type": "WEAK",
+            "~:active": null,
+            "~:euuid": "~u53ece2f6-4cd0-4df5-afdb-08ead4eda917",
+            "~:clone": null,
+            "~:claimed-by": null,
+            "~:position": {
+              "~:x": 313,
+              "~:y": -16.5
+            },
+            "~:configuration": null,
+            "~:attributes": [
+              {
+                "~#neyho.eywa.dataset.core.ERDEntityAttribute": {
+                  "~:euuid": "~u61a07d9b-2062-4b86-9140-4eeb53dadb38",
+                  "~:seq": 0,
+                  "~:name": "date_time",
+                  "~:constraint": "mandatory",
+                  "~:type": "timestamp",
+                  "~:configuration": null,
+                  "~:active": true
+                }
+              },
+              {
+                "~#neyho.eywa.dataset.core.ERDEntityAttribute": {
+                  "~:euuid": "~u3b58f070-da5d-4339-80df-5710f1f7e7ab",
+                  "~:seq": 1,
+                  "~:name": "postaja",
+                  "~:constraint": "optional",
+                  "~:type": "string",
+                  "~:configuration": null,
+                  "~:active": true
+                }
+              },
+              {
+                "~#neyho.eywa.dataset.core.ERDEntityAttribute": {
+                  "~:euuid": "~u44e3e8f7-4835-487d-9431-e0c53d0a9622",
+                  "~:seq": 2,
+                  "~:name": "vjetar_smjer",
+                  "~:constraint": "optional",
+                  "~:type": "string",
+                  "~:configuration": null,
+                  "~:active": true
+                }
+              },
+              {
+                "~#neyho.eywa.dataset.core.ERDEntityAttribute": {
+                  "~:euuid": "~u8fc61494-c8e1-4fbb-b07f-9720f3fcb0f8",
+                  "~:seq": 3,
+                  "~:name": "vjetar_brzina",
+                  "~:constraint": "optional",
+                  "~:type": "float",
+                  "~:configuration": null,
+                  "~:active": true
+                }
+              },
+              {
+                "~#neyho.eywa.dataset.core.ERDEntityAttribute": {
+                  "~:euuid": "~u53d201e7-99d1-4b57-a429-d898779bc804",
+                  "~:seq": 4,
+                  "~:name": "temperatura_zraka",
+                  "~:constraint": "optional",
+                  "~:type": "float",
+                  "~:configuration": null,
+                  "~:active": true
+                }
+              },
+              {
+                "~#neyho.eywa.dataset.core.ERDEntityAttribute": {
+                  "~:euuid": "~u0c722498-c5d8-427b-844a-8d003ca7ee19",
+                  "~:seq": 5,
+                  "~:name": "relativna_vlaznost",
+                  "~:constraint": "optional",
+                  "~:type": "float",
+                  "~:configuration": null,
+                  "~:active": true
+                }
+              },
+              {
+                "~#neyho.eywa.dataset.core.ERDEntityAttribute": {
+                  "~:euuid": "~ucae31ac6-c84d-462c-bfc1-acb955af4b8d",
+                  "~:seq": 6,
+                  "~:name": "tlak_zraka",
+                  "~:constraint": "optional",
+                  "~:type": "float",
+                  "~:configuration": null,
+                  "~:active": true
+                }
+              },
+              {
+                "~#neyho.eywa.dataset.core.ERDEntityAttribute": {
+                  "~:euuid": "~u67973f6e-b53d-451b-ad29-bc2012ae30fb",
+                  "~:seq": 7,
+                  "~:name": "tendencija_tlaka",
+                  "~:constraint": "optional",
+                  "~:type": "float",
+                  "~:configuration": null,
+                  "~:active": true
+                }
+              },
+              {
+                "~#neyho.eywa.dataset.core.ERDEntityAttribute": {
+                  "~:euuid": "~u5c5515f7-6c87-4407-a6aa-5e3c84bad83e",
+                  "~:seq": 8,
+                  "~:name": "stanje_vremena",
+                  "~:constraint": "optional",
+                  "~:type": "string",
+                  "~:configuration": null,
+                  "~:active": true
+                }
+              }
+            ],
+            "~:height": 218
+          }
+        }
+      },
+      "~:relations": {
+        "~uddb44a9d-7847-4d37-bd9f-14beddb4d592": {
+          "~#neyho.eywa.dataset.core.ERDRelation": {
+            "~:path": null,
+            "~:from-label": "stanica",
+            "~:from": "~u287420f2-7e6c-4f8d-a236-da2d647ce100",
+            "~:active": null,
+            "~:to-label": "mjerenja",
+            "~:euuid": "~uddb44a9d-7847-4d37-bd9f-14beddb4d592",
+            "~:claimed-by": null,
+            "~:cardinality": "o2m",
+            "~:to": "~u53ece2f6-4cd0-4df5-afdb-08ead4eda917"
+          }
+        }
+      },
+      "~:configuration": null,
+      "~:clones": null,
+      "~:version": 1
+    }
+  },
+  "~:deployed": false
+}
