@@ -19,5 +19,5 @@ pip install -r requirements.txt
 
 Pokrenite DHMZ sync robota lokalno:
 ```bash
-eywa run -c 'python dhmz_eywa_cache_opisano.py'
+eywa run -c 'python dhmz_eywa_automatizacija.py'
 ```
